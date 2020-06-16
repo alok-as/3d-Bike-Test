@@ -1,0 +1,115 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Hand_grip": {
+            "shader": "Main shader"
+        },
+        "air_box": {
+            "shader": "Main shader"
+        },
+        "back_light": {
+            "shader": "Main shader"
+        },
+        "back_wires1": {
+            "shader": "Main shader"
+        },
+        "backframe_noplate": {
+            "shader": "Main shader"
+        },
+        "bar_mirror": {
+            "shader": "Main shader"
+        },
+        "bike_stand": {
+            "shader": "Main shader"
+        },
+        "blinkers_f1": {
+            "shader": "Main shader"
+        },
+        "cable_horn1": {
+            "shader": "Main shader"
+        },
+        "chain": {
+            "shader": "Main shader"
+        },
+        "discbrake_back": {
+            "shader": "Main shader"
+        },
+        "engine1": {
+            "shader": "Main shader"
+        },
+        "fork": {
+            "shader": "Main shader"
+        },
+        "frame1": {
+            "shader": "Main shader"
+        },
+        "hand_liver1": {
+            "shader": "Main shader"
+        },
+        "handl_bar": {
+            "shader": "Main shader"
+        },
+        "head_light": {
+            "shader": "Main shader"
+        },
+        "kick1": {
+            "shader": "Main shader"
+        },
+        "lambert1": {
+            "shader": "Main shader"
+        },
+        "mudgard": {
+            "shader": "Main shader"
+        },
+        "petrol_tank_cap": {
+            "shader": "Main shader"
+        },
+        "silencer1": {
+            "shader": "Main shader"
+        },
+        "speedometer": {
+            "shader": "Main shader"
+        },
+        "suspension1": {
+            "shader": "Main shader"
+        },
+        "tyre": {
+            "shader": "Main shader"
+        },
+        "tyre_back": {
+            "shader": "Main shader"
+        }
+    }
+}
